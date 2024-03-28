@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.262"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.323"
+        tools:ignore="HardcodedText" />
 
     <Button
         android:id="@+id/btnclear"
@@ -28,7 +29,8 @@
         app:layout_constraintHorizontal_bias="0.793"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323" />
+        app:layout_constraintVertical_bias="0.323"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textdispage"
@@ -42,17 +44,23 @@
 
     <EditText
         android:id="@+id/edtageinput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="248dp"
+        android:layout_height="87dp"
         android:ems="10"
         android:hint="Enter age"
         android:inputType="number"
         android:textAlignment="center"
+        android:textColor="#F8ECEC"
+        android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.106" />
+        app:layout_constraintVertical_bias="0.106"
+        tools:ignore="HardcodedText"
+        android:autofillHints="Enter Age"
+        android:foreground="@color/cardview_light_background"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
