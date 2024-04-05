@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
             buttonclear.setOnClickListener {
-                ageInput?.text?.clear()
+            ageInput?.text?.clear()
                 txtdisage.text = " "
             }
         }
